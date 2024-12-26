@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 600px; 
+    background-image: linear-gradient(to right, #eeaeca,#94bbe9);
+    padding: 20px; 
+    border: none;
+    border-radius: 10px;
+  }
+  
+  h1{
+      font-size: 28px;
+      font-weight: 700;
+      color: #333;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+  
+  .mb{
+      margin-bottom: 10px;
+      
+  }
+  #reg{
+    background-image: linear-gradient(to right, #94a4e9 , rgb(243, 8, 192));
+  }
+  #res{
+    background-image: linear-gradient(to right, #94a4e9 , rgb(243, 8, 192));
+    color: white;
+  }
